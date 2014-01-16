@@ -14,6 +14,12 @@ gem 'mysql2'
 gem 'puma'
 gem 'simple_form'
 gem 'slim-rails'
+gem 'sqlite3'
+gem 'omniauth'
+gem 'omniauth-facebook'
+gem 'omniauth-twitter'
+gem 'omniauth-google-oauth2'
+gem 'random_token'
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
